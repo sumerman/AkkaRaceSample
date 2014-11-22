@@ -1,11 +1,11 @@
 AkkaRaceSample
 ==============
 
-A sample app that demonstrates an utmost importance of the become + Stash approach in some cases.
+A sample app that demonstrates the utmost importance of the become + Stash approach in some cases.
 
 ## Disclaimer
 
-I'm neither scala nor akka developer and this code was written solely to support my point in a [discussion (in russian)](http://eax.me/akka-deadlock/#comment-1701021163).
+I'm neither scala nor akka developer and this code was written solely to support my point in a [discussion (in Russian)](http://eax.me/akka-deadlock/#comment-1701021163).
 
 ## Background
 In a nutshell, the author of the blog has claimed two things:
@@ -35,7 +35,7 @@ way to do a thing.
 
 ### Output
 
-On my maching the app gives an output like following:
+On my machine the app gives an output like following:
 
 ```
 Result1: Some(DataObject{ key: 'foo'; value: 'banana' })
