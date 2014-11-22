@@ -5,7 +5,7 @@ A sample app that demonstrates an utmost importance of the become + Stash approa
 
 ## Disclaimer
 
-I'm neither scala nor akka developer and this code was written solely to support my point in a [disussion (in russian)](http://eax.me/akka-deadlock/#comment-1701021163).
+I'm neither scala nor akka developer and this code was written solely to support my point in a [discussion (in russian)](http://eax.me/akka-deadlock/#comment-1701021163).
 
 ## Background
 In a nutshell, the author of the blog has claimed two things:
@@ -23,8 +23,8 @@ My points were:
     end),
     {noreply, State}.
   ```
-  - sometimes one needs to block to preseve correctness (e.g. by utilizing `become` and `Stash`) 
-  and then one can easily end up in a deadlock and there are no mircales even in akka.
+  - sometimes one needs to block to preserve correctness (e.g. by utilizing `become` and `Stash`)
+  and then one can easily end up in a deadlock and there are no miracles even in akka.
 
 ## This app
 
